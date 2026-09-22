@@ -273,6 +273,10 @@ footer {
   z-index: 1; /* debajo del texto, pero encima del fondo normal */
   pointer-events: none; /* para que no bloquee clics en botones */
 }
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
 .proyecto-card {
   border-radius: 12px;
   overflow: hidden;
